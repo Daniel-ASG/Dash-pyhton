@@ -32,4 +32,5 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
+    app.server.run(port=8000, host='127.0.0.1') #you can change the port to show different outputs on your browser
     app.run_server(debug=True)
